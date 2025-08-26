@@ -119,26 +119,6 @@ While SimpleSky is currently maintained as a personal project, feedback and sugg
 - Documentation improvements
 - General feedback
 
-## Roadmap
-
-### Version 1.1 (Q1 2025)
-- [ ] Camera sensor database
-- [ ] Advanced imaging calculators
-- [ ] Session logging and history
-- [ ] Social sharing features
-
-### Version 1.2 (Q2 2025)
-- [ ] Equipment marketplace integration
-- [ ] Automated imaging plans
-- [ ] Cloud storage sync
-- [ ] Mobile app (iOS/Android)
-
-### Future Enhancements
-- Live telescope control (ASCOM/INDI)
-- AI-powered image processing tips
-- Community features and image gallery
-- Virtual observatory integration
-
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
