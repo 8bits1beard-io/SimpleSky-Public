@@ -1,142 +1,128 @@
-# SimpleSky - Professional Astrophotography Planning
+# Simple Sky v1.1.0 🌌
 
-![SimpleSky Logo](https://simplesky.app/images/simple-sky-logo-240.png)
+**Professional astrophotography planning with real-time astronomical tracking**
 
-**Version 1.0.2** | [Live App](https://simplesky.app) | [Author: Joshua Walderbach](https://github.com/8bits1beard)
+Simple Sky is a comprehensive web application designed for astrophotographers and astronomy enthusiasts. Plan your perfect night under the stars with intelligent object recommendations, real-time space tracking, and advanced sky quality assessment.
 
-## Overview
+![Simple Sky Preview](https://img.shields.io/badge/Version-1.1.0-blue) ![React](https://img.shields.io/badge/React-19.1-61dafb) ![License](https://img.shields.io/badge/License-MIT-green)
 
-SimpleSky is a professional-grade web application designed to streamline astrophotography planning by combining real-time weather data, celestial object recommendations, and telescope compatibility analysis. Built for both amateur and experienced astrophotographers, SimpleSky takes the guesswork out of planning your next imaging session.
+## ✨ Key Features
 
-## Key Features
+### 🛰️ **Real-Time Space Tracking**
+- **International Space Station (ISS) Tracking**: Live position updates every 10 seconds with visibility predictions
+- **Lunar Phase Calculator**: Comprehensive moon phase information with photography recommendations
+- **Planetary Positions**: Real-time tracking of all planets from Mercury to Neptune
+- **Distance Calculations**: Precise measurements from your location to space objects
 
-### 🌌 Comprehensive Celestial Database
-- **696+ Deep Sky Objects**: Complete Messier, NGC, and IC catalogs
-- **Smart Recommendations**: AI-powered object suggestions based on your equipment, location, and current conditions
-- **Detailed Object Information**: Physical properties, imaging difficulty scores, and optimal viewing times
-- **High-Resolution Imagery**: Professional astrophotography images for reference
+### 🌌 **Sky Quality & Planning**
+- **Light Pollution Assessment**: Bortle Dark-Sky Scale evaluation with photography recommendations
+- **700+ Celestial Object Catalog**: Deep-sky objects with intelligent visibility scoring
+- **Weather Integration**: Real-time conditions from multiple meteorological sources
+- **Location Management**: GPS-based detection with custom location saving
 
-### 🔭 Telescope Management
-- **41 Pre-configured Models**: Popular telescopes from Celestron, Meade, Sky-Watcher, and more
-- **Custom Equipment Support**: Add your own telescope specifications
-- **Compatibility Scoring**: Real-time analysis of object-telescope compatibility
-- **Field of View Calculations**: Precise FOV calculations for imaging planning
+### 🔭 **Equipment Optimization**
+- **Telescope Database**: 41+ telescope models with performance calculations
+- **Equipment Recommendations**: Optimal gear suggestions based on targets and conditions
+- **Modification Support**: Custom telescope configurations and upgrades
 
-### 🌤️ Advanced Weather Integration
-- **Real-Time Conditions**: Current temperature, humidity, cloud cover, and seeing conditions
-- **Multi-Day Forecasts**: Plan sessions up to 7 days in advance
-- **Astronomy-Specific Metrics**: Moon phase, astronomical twilight, and transparency ratings
-- **Multiple Weather Providers**: Redundant data sources for reliability
+### 📱 **User Experience**
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Red Mode**: Preserve night vision with astronomy-friendly red light interface
+- **Interactive Maps**: Click-to-select locations with detailed astronomical data
+- **Progressive Web App**: Install on devices for offline access
 
-### 📍 Location Services
-- **GPS Auto-Detection**: Automatic location detection with manual override
-- **Dark Sky Site Database**: Curated list of premier observation locations
-- **Astronomy Club Directory**: Connect with local astronomy communities
-- **Bortle Scale Integration**: Light pollution assessment for your location
+## 🚀 Quick Start
 
-### 📊 Intelligent Scoring System
-- **Astrophotography Score**: Combines weather, object visibility, and equipment compatibility
-- **Weather Score**: Weighted analysis of cloud cover, humidity, temperature, and wind
-- **Object Score**: Factors in altitude, magnitude, size, and imaging difficulty
-- **Session Planning**: Hour-by-hour scoring for optimal timing
+1. **Visit the Application**: [Simple Sky Live Demo](https://your-deployment-url.com)
+2. **Allow Location Access**: Enable GPS for personalized recommendations
+3. **Explore Features**: Navigate between Objects, Tracking, Weather, Equipment, and Location pages
+4. **Plan Your Session**: Use the integrated tools to optimize your astrophotography night
 
-## Technical Specifications
+## 🌟 What Makes Simple Sky Special
 
-### Frontend
-- **Framework**: Vanilla JavaScript ES6+ with modular architecture
-- **UI**: Responsive design optimized for tablets and desktop
-- **Performance**: Lazy loading, code splitting, and optimized asset delivery
-- **PWA**: Progressive Web App with offline capabilities
+- **Real-Time Data**: Live ISS tracking, current moon phases, and up-to-date weather conditions
+- **Intelligent Recommendations**: Smart object suggestions based on your location, equipment, and sky conditions
+- **Comprehensive Coverage**: From beginner-friendly targets to challenging deep-sky objects
+- **Professional Tools**: Advanced filtering, sky quality assessment, and equipment optimization
+- **Night Vision Friendly**: Red mode automatically activates during evening hours
 
-### Data Management
-- **Caching**: Intelligent caching system for offline functionality
-- **Storage**: IndexedDB for large datasets, localStorage for settings
-- **Updates**: Automatic data synchronization when online
+## 📡 Data Sources & APIs
 
-### API Integrations
-- **Weather**: OpenWeather API, NOAA/NWS, Open-Meteo
-- **Astronomy**: Custom astronomy calculations, ephemeris data
-- **Geolocation**: Browser Geolocation API, IP-based fallback
+Simple Sky integrates data from trusted scientific and astronomical sources:
 
-## Browser Support
+### Space Tracking
+- **[Where The ISS At API](https://wheretheiss.at/)** - Real-time International Space Station position data
+- **[US Naval Observatory](https://aa.usno.navy.mil/)** - Precise lunar calculations and astronomical data
+- **[NASA APIs](https://api.nasa.gov/)** - Planetary positions and space object information
 
-- Chrome 90+ (Recommended)
-- Firefox 88+
-- Safari 14+
-- Edge 90+
+### Weather & Location
+- **[Open-Meteo](https://open-meteo.com/)** - Global weather forecasting service
+- **[National Weather Service (NWS)](https://www.weather.gov/)** - US-based weather data and forecasts
+- **Browser Geolocation API** - Location services for personalized recommendations
 
-## Installation
+### Astronomical Data
+- **[OpenNGC Database](https://github.com/mattiaverga/OpenNGC)** - Comprehensive catalog of deep-sky objects
+- **Amateur Astronomy Community** - Telescope specifications and performance data
+- **International Dark-Sky Association** - Light pollution and Bortle scale information
 
-SimpleSky is a web application that runs directly in your browser. No installation required!
+## 🛠️ Technology Stack
 
-1. Visit [simplesky.app](https://simplesky.app)
-2. Allow location access for automatic setup
-3. Select your telescope or add custom equipment
-4. Start planning your astrophotography sessions
+- **React 19.1** - Modern UI framework with concurrent features
+- **Vite 7.1** - Fast build tool and development server
+- **React Router** - Client-side navigation
+- **React Leaflet** - Interactive mapping components
+- **Axios** - HTTP client for API requests
 
-### Progressive Web App (PWA)
+## 🌍 Browser Support
 
-For offline access and app-like experience:
-- **Mobile**: Tap "Add to Home Screen" in your browser menu
-- **Desktop**: Click the install icon in the address bar
+- **Chrome/Chromium** 88+ (Recommended)
+- **Firefox** 85+
+- **Safari** 14+
+- **Edge** 88+
 
-## Usage Guide
+*Note: Location services and some APIs require HTTPS in production environments.*
 
-### Quick Start
-1. **Set Location**: Allow GPS or manually enter coordinates
-2. **Configure Telescope**: Select from presets or add custom specs
-3. **View Recommendations**: Browse tonight's best targets
-4. **Check Weather**: Review conditions and scoring
-5. **Plan Session**: Use hourly forecasts to optimize timing
+## 🔒 Privacy & Data
 
-### Advanced Features
-- **Filters**: Sort objects by type, constellation, or difficulty
-- **Search**: Find specific objects by name or catalog number
-- **Export**: Save session plans and object lists
-- **Customization**: Adjust scoring weights and preferences
+- **No User Tracking**: Simple Sky does not collect personal data or track user behavior
+- **Local Storage Only**: Your preferences and observing plans are stored locally on your device
+- **Optional Location**: GPS access is optional and used only for astronomical calculations
+- **Third-Party APIs**: Weather and astronomical data is fetched from public APIs as needed
 
-## Privacy & Security
+## 📄 Attribution
 
-- **No Account Required**: Use anonymously without registration
-- **Local Storage**: Your data stays on your device
-- **Secure APIs**: All external connections use HTTPS
-- **No Tracking**: No analytics or user tracking implemented
+Simple Sky v1.1.0 is built upon the foundation of the original Simple Sky application and incorporates data and algorithms from various open-source projects and public APIs. All astronomical calculations follow standard algorithms from "Astronomical Algorithms" by Jean Meeus.
 
-## Development
+## 🤝 Contributing
 
-### Tech Stack
-- HTML5, CSS3, JavaScript (ES6+)
-- Service Workers for offline functionality
-- IndexedDB for data persistence
-- Leaflet.js for mapping
-- Python for data pipeline and catalog building
+We welcome contributions from the astronomy and development communities:
 
-## Contributing
+1. **Report Issues**: Submit bug reports or feature requests via GitHub Issues
+2. **Suggest Improvements**: Share ideas for new features or enhancements
+3. **Data Contributions**: Help improve object catalogs or telescope databases
+4. **Code Contributions**: Submit pull requests for bug fixes or new features
 
-While SimpleSky is currently maintained as a personal project, feedback and suggestions are welcome! Please open an issue on GitHub for:
-- Bug reports
-- Feature requests
-- Documentation improvements
-- General feedback
+## 🆘 Support
 
-## License
+- **Documentation**: Comprehensive help available within the application
+- **Community**: Join discussions on astronomy forums and communities
+- **Issues**: Report problems via GitHub Issues
+- **Updates**: Follow releases for new features and improvements
 
-MIT License - See [LICENSE](LICENSE) file for details
+## 📱 Installation
 
-## Acknowledgments
+Simple Sky runs entirely in your web browser - no installation required! For the best experience:
 
-- Astronomical data from SIMBAD, VizieR, and OpenNGC
-- Weather data from OpenWeather, NOAA, and Open-Meteo
-- Astrophotography images from the astronomy community
-- Built with passion for the astronomy community
-
-## Support
-
-- **Documentation**: [GitHub Wiki](https://github.com/yourusername/SimpleSky/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/SimpleSky/issues)
+1. **Bookmark the Application**: Add to your browser bookmarks for quick access
+2. **Add to Home Screen** (Mobile): Install as a Progressive Web App
+3. **Enable Location Services**: Allow GPS access for personalized recommendations
+4. **Use HTTPS**: Ensure secure connection for full API functionality
 
 ---
 
-**SimpleSky - Making Astrophotography Simple**
+**Simple Sky v1.1.0** - Professional astrophotography planning made simple  
+*Developed with ❤️ for the astronomy community*
 
-*Clear skies and happy imaging!* 🌟🔭📸
+**Last Updated**: August 26, 2025  
+**License**: MIT License  
+**Platform**: Web Application (Cross-Platform)
